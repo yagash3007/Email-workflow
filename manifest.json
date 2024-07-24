@@ -1,0 +1,46 @@
+{
+  "name": "Email_Workflow",
+  "version": "1.0.0",
+  "size": {
+    "width": 1,
+    "height": 1
+  },
+  "mapping": [],
+"workflowMapping": [
+    {
+      "alias": "send_email",
+      "modelId": null,
+      "version": null,
+      "parameters": [
+        {
+          "name": "to",
+          "aliasedName": "to",
+          "type": "text",
+          "list": false,
+          "children": []
+        },
+        {
+          "name": "subject",
+          "aliasedName": "subject",
+          "type": "text",
+          "list": false,
+          "children": []
+        },
+        {
+          "name": "body",
+          "aliasedName": "body",
+          "type": "text",
+          "list": false,
+          "children": []
+        }
+      ]
+    }
+   
+  ],
+
+
+
+  "fileName": "manifest.json",
+  "id": "ba098d58-ced1-42c6-9caf-ad4efb4d6f1c",
+  "proxyId":"ca9e5d85-871b-4f1a-934d-9f446a62901e"
+}
